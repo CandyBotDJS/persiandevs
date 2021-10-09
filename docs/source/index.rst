@@ -1,4 +1,4 @@
-Welcome to PersianDevs's documentation!
+Welcome to PersianDevs documentation!
 ===================================
 
 **PersianDevs** is a Discord Bot List Coded in Javascript, Pug, CSS
