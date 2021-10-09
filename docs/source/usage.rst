@@ -22,13 +22,7 @@ you can use the ``post_stats()`` function:
 
 The ``servers`` parameter should be your bots server count 
 
-.. autoexception:: lumache.InvalidKindError
-
 For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
 
 .. javascript:: 
      const persiandevs = require('persiandevs');
