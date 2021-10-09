@@ -5,7 +5,7 @@ Welcome to PersianDevs documentation!
 that has a special thing
 It Supports Persian Language!
 
-Check out the :doc:`api` section for further information!
+Check out the :doc:`usage` section for further information!
 
 .. note::
 
@@ -16,4 +16,5 @@ Contents
 
 .. toctree::
 
+   usage
    api
