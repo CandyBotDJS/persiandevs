@@ -24,6 +24,11 @@ The ``servers`` parameter should be your bots server count
 
 For example:
 
-.. javascript:: 
+.. code-block::
      const persiandevs = require('persiandevs');
      persiandevs.post_status(69);
+
+.. autosummary::
+   :toctree: generated
+
+   lumache
