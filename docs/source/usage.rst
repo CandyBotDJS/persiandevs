@@ -6,23 +6,21 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use persiandevs, First Install It With NPM:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   $ npm install persiandevs
 
-Creating recipes
+Posting Bot Stats
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+to post your bot stats
+you can use the ``post_stats()`` function:
 
-.. autofunction:: lumache.get_random_ingredients
+.. autofunction:: post_stats
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
+The ``servers`` parameter should be your bots server count 
 
 .. autoexception:: lumache.InvalidKindError
 
@@ -32,3 +30,6 @@ For example:
 >>> lumache.get_random_ingredients()
 ['shells', 'gorgonzola', 'parsley']
 
+.. javascript:: 
+     const persiandevs = require('persiandevs');
+     persiandevs.post_status(69);
